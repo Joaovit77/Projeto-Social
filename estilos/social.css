@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 *{
     margin: 0px;
     padding: 0px;
@@ -7,27 +8,30 @@
 }
 
 ::-webkit-scrollbar{
-    width: 0vw;
-    height: 0vh;
+    height: 0px;
+    width: 0px;
+}
+
+body{
+    height: 100vh;
 }
 
 img{
     width: 100vw;
-
 }
 
 a{
     display: block;
     background-color: darkred;
     color: white;
-    margin: -10px 0px 0px 0px;
-    padding: 20px;
-    text-decoration: none;
-    font-weight: bolder;
     text-align: center;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 20px;
+    margin: -10px 0px 0px 0px;
 }
 
 a:hover{
-    background-color: red;
     text-decoration: underline;
+    background-color: red;
 }
